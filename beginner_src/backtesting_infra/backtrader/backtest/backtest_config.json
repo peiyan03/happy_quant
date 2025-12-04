@@ -1,0 +1,14 @@
+{
+    "date_ranges": [
+      { "fromdate": "2011-01-01", "todate": "2012-12-31" }
+    ],
+    "strategies": [
+      {
+        "name": "SMAStrategy",
+        "params": {
+          "period": { "range": [10, 20, 30] },
+          "stop_loss": { "range": [0.02] }
+        }
+      }
+    ]
+  }
